@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Compiling $PYFILE ..."
+
+export PYFILE=c"${PYFILE%.py}.pyc"
+
+if [ ! -e "$PYFILEc" ]; then
+	touch "$PYFILEc"
+fi
+
+
+python3 -m compileall "$PYFILEc"

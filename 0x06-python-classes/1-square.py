@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""create a class of Square"""
+"""Creates class Square with private instance attribute size."""
+
 
 class Square:
-    """private instance attribute size"""
+    """Defines class and instantiates private instance attribute size."""
 
-    def _init_(self, size):
-        self.size = size
+    def __init__(self, size):
+        self.__size = size

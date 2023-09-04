@@ -5,4 +5,4 @@
 class Rectangle:
     """Define rectangle"""
 
-    def rectangle(self):  
+    pass

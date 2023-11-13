@@ -2,8 +2,8 @@
 /*
  * script that prints a message depending of the number of arguments passed
 */
-let myArgs = process.argv.slice(2);
-let argCount = myArgs.length;
+const myArgs = process.argv.slice(2);
+const argCount = myArgs.length;
 /*
  * checks number of arguments
  */
